@@ -1,37 +1,52 @@
-.card {
+.awesome {
 	width: 100%;
 }
 
-.card-block {
+.container__awesome {
     max-width: 1400px;
     margin: 0 auto;
 }    
 
-h1 {
+h2 {
 	font-size: 36px;
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
-	padding-bottom: 15px; 	
+	
 }
 
-.text-center {
-	text-align: center;
-}	
+.awesome-line {
+	width: 68px;
+	margin: 10px auto 40px ;
+    border: 0;
+    border-bottom: 2px solid orange;
+  
+}
 
-.card-block_row {
+.awesome__text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+
+.awesome-card {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;  
 }
 
-.card-block__item {
+.awesome-card__item {
     width: 350px;
     margin-top: 50px;
 }
 
-.block-item__icon {
+.awesome-card__icon {
     border: 1px solid #ff8b38;
     border-radius: 50%;
     width: 70px;
@@ -42,7 +57,7 @@ h1 {
     margin-left: 135px;
 }
 
-.card-block__title {
+.awesome-card__title {
 	color: #333333;
 	font-family: "Open Sans";
 	font-size: 20px;
@@ -53,7 +68,7 @@ h1 {
 
 }
 
-.card-block__text {
+.awesome-card__text {
 	color: #86878b;
 	font-family: "Open Sans";
 	font-size: 14px;
@@ -61,3 +76,56 @@ h1 {
 	line-height: 20px;
 	text-align: center;
 }
+
+.design__title {
+    padding-top: 75px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+} 
+
+.design-line {
+	width: 68px;
+	margin: 10px auto 40px ;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+  
+}
+
+.design__text {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.design__button {
+ position: relative;
+left: 50%;
+transform: translate(-50%, 0);	
+}
+
+ 
+.footer-block{
+    
+    background-color: black;
+}
+.footer__row {
+   padding-top: 38px;
+   
+}
+.footer__social {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 317px;
+    margin: auto;
+	}
