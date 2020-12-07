@@ -77,6 +77,175 @@ h2 {
 	text-align: center;
 }
 
+.pricing__container {
+    
+    
+}
+
+.pricing {
+	width: 1400px;
+	height: 883px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+}
+
+.pricing__list {
+    margin-left: 146px;
+    margin-right: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.pricing__title  {
+/* Style for "PRICING OP" */
+color: #212121;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 43px;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+
+.pricing-line {
+	width: 68px;
+	margin: 10px auto 40px ;
+    border: 0;
+    border-bottom: 2px solid orange;
+  
+}
+
+.pricing-text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+	text-align: center;
+}
+
+.pricing-card {
+    width: 343px;
+}
+
+.pricing__item {
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 96px;
+}
+    
+
+.pricing__options.one {
+    border-bottom: 2px solid #fff;
+	background-color:#333333 ;
+}
+.pricing__options.two{
+    border-bottom: 2px solid #fff;
+	background-color:#333333 ;
+}
+.pricing__options.three {
+    border-bottom: 5px solid #ff8b38;
+	background-color:#333333 ;
+}
+.pricing__options.four {
+    background-color: #ff8b38 ;
+    
+}
+
+
+.pricing__options p {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+}
+.pricing__options {
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.pricing__options .pricing__popular {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.pricing__options .pricing__payment-text {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    text-transform: none;
+}
+.pricing__header{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+
+}
+
+.pricing__options .pricing__price-part {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 94px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.cost{
+    color: #ffffff;
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
 .design__title {
     padding-top: 75px;
     color: #ffffff;
