@@ -1,3 +1,9 @@
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 2.5;
+}
 .awesome {
 	width: 100%;
 }
@@ -245,6 +251,113 @@ text-transform: uppercase;
     line-height: normal;
 }
 
+.customers  {
+width: 1400px;
+height: 591px;
+background-color: #ffffff;
+}
+
+.customers__title {
+color: #212121;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "W, HAT OUR" */
+    
+}
+.customers-line {
+		width: 68px;
+	margin: 10px auto 40px ;
+    border: 0;
+    border-bottom: 2px solid orange;
+	
+	}
+.customers__text {
+/* Style for "Lorem ipsu" */
+color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+margin: 0px 0px 55px 0px;
+}
+
+.customers__card  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+        
+    }
+
+.customers__card .customers-card__item {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.customers-card__item {
+    font-size: 100%;
+    text-align: center;
+    width: 273px;
+    margin-bottom: 105px;
+     
+       
+    }    
+    
+.customers-card__text {
+    background-color: #f5f5f5;
+    padding: 24px 13px 41px 12px;
+    text-align: start;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+        
+    }
+
+.author {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70px;
+    align-content: flex-start;
+    justify-content: center;
+    
+}
+.reviews-cards__author-img {
+    width: 70px;
+    height: 70px;
+    
+}
+.name {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.job {
+   text-align: left;
+   margin-left: 15px;
+   color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
 
 .design__title {
     padding-top: 75px;
@@ -287,6 +400,8 @@ transform: translate(-50%, 0);
     
     background-color: black;
 }
+
+
 .footer__row {
    padding-top: 38px;
    
