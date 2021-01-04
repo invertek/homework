@@ -1,328 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Мой первый лединг</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap"
+		rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
-
 <body>
-<<<<<<< HEAD
-	<section class="modern">
-		<div class="containder">
-			<div class="modern__content">
-				<div class="modern-main">
-					<img src="img/logo.png" class="logo">
-					<h2 class="modern__title">
-						MODERN AXURE TEMPLATE
-						FOR BEAUTIFUL PROTOTYPES
-					</h2>
-					<div class="modern-line"></div>
-					<div class="modern__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+    <header class="header">
+		<div class="container">
+			<div class="header__body">
+				<div class="header__logo">
+					<a href="#" class="header-logo__link"><span title='logo' class="header-logo__img"></span></a>
+				</div>
+				<nav class="nav">
+					<div class="top__menu">
+						<span class="nav__menu"></span>
+					</div>
+					<ul class="nav__list">
+						<li class="nav__list-item"><a href="#" class="nav__link">Features</a></li>
+						<li class="nav__list-item"><a href="#" class="nav__link">About</a></li>
+						<li class="nav__list-item"><a href="#" class="nav__link">Pricing</a></li>
+						<li class="nav__list-item"><a href="#" class="nav__link">Reviews</a></li>
+						<li class="nav__list-item"><a href="#" class="nav__link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="fullscreen">
+		<div class="container full">
+			<div class="fullscreen__body">
+				<div class="fullscreen-main">
+					<img src="img/Logos.png" alt="atix" class="fullscreen__logo">
+					<h1 class="fullscreen__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+					<div class="wline"></div>
+					<div class="fullscreen__subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
 						euismod bibendum laoreet. Proin gravida dolor sit amet lacus
 						accumsan et viverra justo commodo.</div>
-					<div class="modern-button">
-						<button class="modern__button">
-							<a href="#" class="modern__link">Download</a>
+					<div class="fullscreen-button">
+						<button class="fullscreen__button">
+							<a href="#" class="fullscreen__link">Download</a>
 						</button>
 					</div>
 				</div>
-				<div class="form">
-					<div class="form-title">Try Your <span class="free">FREE</span> Trial Today</div>
-					<form action="#" method="GET">
-						<ul class="form__list">
-							<li class="form-item">
+				<div class="fullscreen-trial">
+					<h3 class="fullscreen__trial-title">Try Your <span class="free">FREE</span> Trial Today</h3>
+					<form action="#" method="GET" class="fulscreen-form">
+						<ul class="fullscreen__list">
+							<li class="fullscreen__list-item">
 								<label for="name">Name</label>
-								<input type="text" id="name" name='name' placeholder="Name">
+								<input type="text" id="name" name='user_name' placeholder="Name" required>
 							</li>
-							<li class="form-item">
+							<li class="fullscreen__list-item">
 								<label for="mail">E-mail</label>
-								<input type="email" id="mail" name='mail' placeholder="Email">
+								<input type="email" id="mail" name='user_mail' placeholder="E-mail" required>
 							</li>
-							<li class="form-item">
+							<li class="fullscreen__list-item">
 								<label for="password">Password</label>
-								<input type="Password" id="Password" name='Password' placeholder="Password">
+								<input class="fullscreen__password" type="password" id="password" name='user_password'
+									placeholder="Password" required>
 							</li>
 						</ul>
+						<button class="fullscreen__trial-link" type="submit">Get Started</button>
+
 					</form>
-					<a href="#" class="form-link">Get Started</a>
+
 				</div>
 			</div>
 		</div>
 	</section>
-<section class="media">
+	<section class="media">
 		<div class="container">
 			<div class="media-main">
 				<div class="media__content">
-					<h3 class="media__title">
-						Social Media
-					</h3>
+					<h2 class="media__title"> Social Media</h2>
 					<p class="media__text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Aenean euismod bibendum laoreet.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
 					</p>
 				</div>
 				<div class="media-icon">
 					<ul class="social-list">
 						<li class="media__social-icon">
-															<a href="#" class="tweet">
-									<img src="icon/fb-icon-bar.png" alt="inst" class="inst-icon3">
+								<a href="#" class="tweet">
+									<img src="img/fb.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
 						<li class="media__social-icon">
 								<a href="#" class="tweet">
-									<img src="icon/tw-icon-bar.png" alt="inst" class="inst-icon3">
+									<img src="img/tw.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
 						<li class="media__social-icon">
 								<a href="#" class="tweet">
-									<img src="icon/google-icon-bar.png" alt="inst" class="inst-icon3">
+									<img src="img/gp.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
 						<li class="media__social-icon">
 								<a href="#" class="tweet">
-									<img src="icon/pr-icon-bar.png" alt="inst" class="inst-icon3">
+									<img src="img/pr.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
 						<li class="media__social-icon">
 								<a href="#" class="tweet">
-									<img src="icon/inst-icon-bar.png" alt="inst" class="inst-icon3">
+									<img src="img/inst.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
 						<li class="media__social-icon">
 								<a href="#" class="tweet">
-									<img src="icon/u-icon-bar.png" alt="inst" class="inst-icon3">
+									<img src="img/ls.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
 						<li class="media__social-icon">
 								<a href="#" class="tweet">
-									<img src="icon/rss-icon-bar.png" alt="inst" class="inst-icon3">
+									<img src="img/rss.png" alt="inst" class="inst-icon3">
 								</a>
 						</li>
-					</ul>
+                    </ul>
 				</div>
 			</div>
 		</div>
 	</section>
-=======
-
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
-	<section class="awesome">
+	<section class="features">
 		<div class="container">
-			<h2 class="awesome__title">WHY THIS IS AWESOME</h2>
-			<div class="awesome-line"></div>
-			<div class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-			<div class="awesome-card">
-				 <div class="awesome-card__item">
-					<div class="awesome-card__icon">
-						<img src="icon/shine.png" alt="shine">
+			<div class="features__body">
+				<div class="features__tab">
+					<input type="radio" id="tab1" name="tab-group" class="features__input" checked>
+					<label for="tab1" class="tab-title tab-1">tab 1</label>
+					<input type="radio" id="tab2" name="tab-group" class="features__input">
+					<label for="tab2" class="tab-title tab-2">tab 2</label>
+					<input type="radio" id="tab3" name="tab-group" class="features__input">
+					<label for="tab3" class="tab-title tab-3">tab 3</label>
+					<div class="tab-content content-1">
+						<div class="features-content">
+							<h2 class="features__title">Tabs with soft transitioning effect.</h2>
+							<p class="features__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+								justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+								penatibus et magnis dis parturient montes.
+							</p>
+							<button class="features__btn">
+								Download
+							</button>
+						</div>
+						<div class="features-img">
+							<img src="img/features.png" alt="" class="features__img">
+						</div>
 					</div>
-					<div class="awesome-card__title">Thoughtful Design</div>
-					<div class="awesome-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-						elit. Aenean euismod bibendum laoreet. Proin gravida
-						dolor sit amet lacus accumsan et viverra.</div>
-				</div>
-				<div class="awesome-card__item">
-					<div class="awesome-card__icon">
-						<img src="icon/keyboard.png" alt="keyboard">
+						</div>>
+					<div class="tab-content content-2">
+						<div class="features-img">
+							<img src="img/features.png" alt="" class="features__img">
+						</div>
+						<div class="features-content">
+							<h2 class="features__title">Tabs with soft transitioning effect.</h2>
+							<p class="features__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+								justo commodo. Proin sodales pulvinar tempor. 
+
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet.
+							</p>
+							<button class="features__btn">
+								Download
+							</button>
+						</div>
 					</div>
-					<div class="awesome-card__title">Well Crafted</div>
-					<div class="awesome-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-						elit. Aenean euismod bibendum laoreet. Proin gravida
-						dolor sit amet lacus accumsan et viverra.</div>
-				</div>
-				<div class="awesome-card__item">
-					<div class="awesome-card__icon">
-						<img src="icon/molniya.png" alt="molniya">
+					<div class="tab-content content-3">
+						<div class="features-content">
+							<h2 class="features__title">Tabs with soft transitioning effect.</h2>
+							<p class="features__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+								justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+								penatibus et magnis dis parturient montes.
+
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet.
+							</p>
+							<button class="features__btn">
+								Download
+							</button>
+						</div>
+						<div class="features-img">
+							<img src="img/features.png" alt="" class="features__img">
+						</div>
 					</div>
-					<div class="awesome-card__title">Easy to Customize</div>
-					<div class="awesome-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-						elit. Aenean euismod bibendum laoreet. Proin gravida
-						dolor sit amet lacus accumsan et viverra.</div>
+
 				</div>
 			</div>
+	</section>
+
+    <section class="awesome">
+        <div class="container">
+            <div class="awesome__header">
+                <div class="awesome__title title">WHY THIS IS AWESOME</div>
+                <div class="line"></div>
+                <div class="awesome__subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="awesome__row">
+                <div class="awesome__column">
+                    <div class="item-awesome">
+                        <div class="item-awesome__icon">
+                            <img src="img/lampochka.png" alt="лампочка" />
+                        </div>
+                        <div class="item-awesome__title">Thoughtful Design</div>
+                        <div class="item-awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida 
+                            dolor sit amet lacus accumsan et viverra.</div>
+                    </div>
+                </div>
+                <div class="awesome__column">
+                    <div class="item-awesome">
+                        <div class="item-awesome__icon">
+                            <img src="img/klaviatyra.png" alt="клавиатура" />
+                        </div>
+                        <div class="item-awesome__title">Well Crafted</div>
+                        <div class="item-awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida 
+                            dolor sit amet lacus accumsan et viverra.</div>
+                    </div>
+                </div>
+                <div class="awesome__column">
+                    <div class="item-awesome">
+                        <div class="item-awesome__icon">
+                            <img src="img/molnya.png" alt="молния" />
+                        </div>
+                        <div class="item-awesome__title">Easy to Customize</div>
+                        <div class="item-awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida 
+                            dolor sit amet lacus accumsan et viverra.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="container">
+            <div class="pricingrow__content">
+                <h2 class="pricing__title">Pricing options</h2>
+                    <div class="line"></div>
+                        <p class="pricing-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="pricing__list">
+                    <div class="pricing-card">
+                        <ul class="pricing__item">
+                            <li class="pricing__options one"><div class="pricing__header">Basic</div></li>
+                            <li class="pricing__options two"><p class="pricing__price-part"><span class="cost">$</span>0</p></li>
+                            <li class="pricing__options three"><p class="pricing__payment-text">Free for Life</p></li>
+                            <li class="pricing__options"><p>1 gb of space</p></li>
+                            <li class="pricing__options"><p>10 gb of bandwidth</p></li>
+                            <li class="pricing__options"><p>3 websites</p></li>
+                            <li class="pricing__options"><p>basic customization</p></li>
+                            <li class="pricing__options"><p>wordpress integration</p></li>
+                            <li class="pricing__options"><p>email support</p></li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card">
+                        <ul class="pricing__item">
+                            <li class="pricing__options one"><div class="pricing__header">Professional</div></li>
+                            <li class="pricing__options two"><p class="pricing__price-part"><span class="cost">$</span>19</p></li>
+                            <li class="pricing__options three"><p class="pricing__payment-text">Monthly Payment</p></li>
+                            <li class="pricing__options four"><p class="pricing__popular">Our most popular</p></li>
+                            <li class="pricing__options"><p>5 gb of space</p></li>
+                            <li class="pricing__options"><p>50 gb of bandwidth</p></li>
+                            <li class="pricing__options"><p>12 websites</p></li>
+                            <li class="pricing__options"><p>advanced customization</p></li>
+                            <li class="pricing__options"><p>wordpress integration</p></li>
+                            <li class="pricing__options"><p>email support</p></li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card">
+                        <ul class="pricing__item">
+                            <li class="pricing__options one"><div class="pricing__header">Enterprise</div></li>
+                            <li class="pricing__options two"><p class="pricing__price-part"><span class="cost">$</span>70</p></li>
+                            <li class="pricing__options three"><p class="pricing__payment-text">Monthly Payment</p></li>
+                            <li class="pricing__options"><p class="price-cards__services">unlimited space</p></li>
+                            <li class="pricing__options"><p>unlimited bandwidth</p></li>
+                            <li class="pricing__options"><p>100 websites</p></li>
+                            <li class="pricing__options"><p>advanced customization</p></li>
+                            <li class="pricing__options"><p>wordpress integration</p></li>
+                            <li class="pricing__options"><p>24/7 customer support</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+		<div class="container">
+			<div class="reviews__body">
+				<h2 class="title reviews__title">What our customers are saying</h2>
+				<div class="line"></div>
+				<div class="subtitle reviews__subtitle">
+					<p class='subtitle__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="reviews-cards">
+					<div class="reviews-cards__item">
+						<div class="review-wrap">
+						<div class="reviews-cards__comment">
+							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!
+							</p>
+						</div>
+						<div class="reviews-cards__author">
+							<img src="img/avatar.png" alt="avatar" class="reviews-cards__author-img">
+							<h3 class="reviews-cards__author-name">Jeremy H.</h3>
+							<p class="reviews-cards__author-job">Manager</p>
+						</div>
+					</div>
+				</div>
+				<div class="reviews-cards__item">
+					<div class="review-wrap">
+						<div class="reviews-cards__comment">
+							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!
+							</p>
+						</div>
+						<div class="reviews-cards__author">
+							<img src="img/avatar.png" alt="avatar" class="reviews-cards__author-img">
+							<h3 class="reviews-cards__author-name">John S.</h3>
+							<p class="reviews-cards__author-job">Freelancer</p>
+						</div>
+					</div>
+				</div>
+				<div class="reviews-cards__item">
+					<div class="review-wrap">
+						<div class="reviews-cards__comment">
+							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!
+							</p>
+						</div>
+						<div class="reviews-cards__author">
+							<img src="img/avatar.png" alt="avatar" class="reviews-cards__author-img">
+							<h3 class="reviews-cards__author-name">Susan W.</h3>
+							<p class="reviews-cards__author-job">Photographer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+    </section>
+    <section class="axure">
+		<div class="axure-main">
+			<div class="container">
+				<div class="axure-main-content">
+					<h2 class="axure-main__title">
+						Stylish axure design
+					</h2>
+					<div class="axure-main__subtitle">
+						<h3 class="axure-main__subtitle-text">
+							Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
+							ever!
+						</h3>
+					</div>
+					<div class="axure-main-button">
+						<button class="axure-main__button">
+							Download
+						</button>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
-	
-<section class="pricing">
-	<div class="container">
-<<<<<<< HEAD
-		<div class="pricingrow__content">
-=======
-		<div class="pricing__content">
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
-			<h2 class="pricing__title">Pricing options</h2>
-				<div class="pricing-line"></div>
-					<p class="pricing-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-			<div class="pricing__list">
-				<div class="pricing-card">
-					<ul class="pricing__item">
-						<li class="pricing__options one"><div class="pricing__header">Basic</div></li>
-						<li class="pricing__options two"><p class="pricing__price-part"><span class="cost">$</span>0</p></li>
-						<li class="pricing__options three"><p class="pricing__payment-text">Free for Life</p></li>
-						<li class="pricing__options"><p>1 gb of space</p></li>
-						<li class="pricing__options"><p>10 gb of bandwidth</p></li>
-						<li class="pricing__options"><p>3 websites</p></li>
-						<li class="pricing__options"><p>basic customization</p></li>
-						<li class="pricing__options"><p>wordpress integration</p></li>
-						<li class="pricing__options"><p>email support</p></li>
-					</ul>
-				</div>
-				<div class="pricing-card">
-					<ul class="pricing__item">
-						<li class="pricing__options one"><div class="pricing__header">Professional</div></li>
-						<li class="pricing__options two"><p class="pricing__price-part"><span class="cost">$</span>19</p></li>
-						<li class="pricing__options three"><p class="pricing__payment-text">Monthly Payment</p></li>
-						<li class="pricing__options four"><p class="pricing__popular">Our most popular</p></li>
-						<li class="pricing__options"><p>5 gb of space</p></li>
-						<li class="pricing__options"><p>50 gb of bandwidth</p></li>
-						<li class="pricing__options"><p>12 websites</p></li>
-						<li class="pricing__options"><p>advanced customization</p></li>
-						<li class="pricing__options"><p>wordpress integration</p></li>
-						<li class="pricing__options"><p>email support</p></li>
-					</ul>
-				</div>
-				<div class="pricing-card">
-					<ul class="pricing__item">
-						<li class="pricing__options one"><div class="pricing__header">Enterprise</div></li>
-						<li class="pricing__options two"><p class="pricing__price-part"><span class="cost">$</span>70</p></li>
-						<li class="pricing__options three"><p class="pricing__payment-text">Monthly Payment</p></li>
-						<li class="pricing__options"><p class="price-cards__services">unlimited space</p></li>
-						<li class="pricing__options"><p>unlimited bandwidth</p></li>
-						<li class="pricing__options"><p>100 websites</p></li>
-						<li class="pricing__options"><p>advanced customization</p></li>
-						<li class="pricing__options"><p>wordpress integration</p></li>
-						<li class="pricing__options"><p>24/7 customer support</p></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="customers">
+	<section class="contact">
 		<div class="container">
-				<h2 class="customers__title">What our customers are saying</h2>
-							<div class="customers-line"></div>
-					<p class="customers__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-				<div class="customers__card">
-					<div class="customers-card__item">
-							<div  class="customers-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</div >
-						<div class="author">
-<<<<<<< HEAD
-							<img src="img/ava.png" alt="avatar">
-=======
-							<img src="img/avatar_2_u231.png" alt="avatar">
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
-							<div class="name">Jeremy H.</div>
-							<div class="job">Manager</div>
-						</div>
-					</div>
-					<div class="customers-card__item">
-							<div  class="customers-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</div >
-						<div class="author">
-<<<<<<< HEAD
-							<img src="img/ava.png" alt="avatar">
-=======
-							<img src="img/avatar_2_u231.png" alt="avatar">
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
-							<div class="name">Jeremy H.</div>
-							<div class="job">Freelancer</div>
-						</div>
-					</div>
-					<div class="customers-card__item">
-							<div  class="customers-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</div >
-						<div class="author">
-<<<<<<< HEAD
-							<img src="img/ava.png" alt="avatar">
-=======
-							<img src="img/avatar_2_u231.png" alt="avatar">
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
-							<div class="name">Jeremy H.</div>
-							<div class="job">Photographer</div>
-						</div>
-					</div>
+			<div class="contact__body">
+				<h2 class="contact__title title">CONTACT US</h2>
+				<div class="line"></div>
+				<div class="contact__subtitle subtitle">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
-		</div>
-</section>
+				<form action="#" method='GET' class="contact-form">
+					<div class="formblock">
+						<ul class="contact__list">
+							<li class="contact__list-item">
+								<label for="name">Name</label>
+								<input class="contact__input" type="text" id="name" name='user_name' placeholder="Name">
+							</li>
+							<li class="contact__list-item">
+								<label for="mail">E-mail</label>
+								<input class="contact__input" type="email" id="mail" name='user_mail'
+									placeholder="E-mail">
+							</li>
+							<li class="contact__list-item">
+								<label for="object">object</label>
+								<input class="contact__input" type="text" id="subject" name='user__subject'
+									placeholder="Subject">
+							</li>
+						</ul>
+						<div class="message">
+							<label class="contact__message" for="Message">Message</label>
+							<textarea class="contact__textarea" id="Message" name="Mesasge" rows="7" cols="1">
+						</textarea>
+						</div>
+					</div>
+					<button class="contact__btn" type="submit">
+						Send Message
+					</button>
+				</form>
 
-<<<<<<< HEAD
-	<section class="design"> 
-	<div class="design-main">	
-=======
-	<section class="design"> <style>.design	{
-	
-background-image: url(img/bg.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-	} </style>
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
-		<div class="container">			
-				<h2 class="design__title">STYLISH AXURE DESIGN</h2>
-				<div class="design-line"></div>
-				<div class="design__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
-					faster than ever!</div>
-				<button class="design__button">
-					Download
-				</button>
 			</div>
-<<<<<<< HEAD
-	</div>
-=======
-
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
+		</div>
 	</section>
 
 	<footer class="footer">
 		<div class="container">
+			<div class="footer-wrapper">
 				<div class="footer-contet">
+					<div class="footer__list">
 						<ul class="footer__social">
-							<li class="footer__social-icon">
-<<<<<<< HEAD
-								<img src="icon/fb.png" alt="inst" class="inst-icon1">
-=======
-								<a href="#" class="inst"><img src="icon/fb.png" alt="inst" class="inst-icon1"></a>
->>>>>>> 8d28dfa5ff694159db1fd47fcb68160bd872a572
+							<li class="footer__social-element">
+								<a href="#" class="inst"><i class="fab fa-facebook-f"></i></a>
 							</li>
-							<li class="footer__social-icon">
-								<a href="#" class="inst">
-									<img src="icon/fb.png" alt="inst" class="inst-icon2">
+							<li class="footer__social-element">
+								<a href="#" class="twitter">
+									<i class="fab fa-twitter"></i>
 								</a>
 							</li>
-							<li class="footer__social-icon">
-								<a href="#" class="tweet">
-									<img src="icon/fb.png" alt="inst" class="inst-icon3">
-								</a>
-							</li>
-							<li class="footer__social-icon">
+							<li class="footer__social-element">
 								<a href="#" class="google">
-									<img src="icon/fb.png" alt="inst" class="inst-icon4">
+									<i class="fab fa-google-plus-g"></i>
 								</a>
 							</li>
-							<li class="footer__social-icon">
+							<li class="footer__social-element">
+								<a href="#" class="pint">
+									<i class="fab fa-pinterest"></i>
+								</a>
+							</li>
+							<li class="footer__social-element">
 								<a href="#" class="inst">
-									<img src="icon/fb.png" alt="inst" class="inst-icon5">
+									<i class="fab fa-instagram"></i>
 								</a>
 							</li>
-							<li class="footer__social-icon">
-								<a href="#" class="vk">
-									<img src="icon/fb.png" alt="inst" class="inst-icon6">
+							<li class="footer__social-element">
+								<a href="#" class="wave">
+									<i class="fab fa-stumbleupon"></i>
 								</a>
 							</li>
-							<li class="footer__social-icon">
-								<a href="#" class="vk">
-									<img src="icon/fb.png" alt="inst" class="inst-icon7">
+							<li class="footer__social-element">
+								<a href="#" class="wifi">
+									<i class="fas fa-rss"></i>
 								</a>
 							</li>
 						</ul>
-
-					<p class="footer__text">© 2015 Axure Themes</p>
+					</div>
+					<div class="footer-copyright">
+						<p class="footer__text">© 2015 Axure Themes</p>
+					</div>
 				</div>
-
+			</div>
 		</div>
-	</footer>
+	</footer> 
 </body>
-
 </html>
